@@ -1,0 +1,33 @@
+        /* Scholar
+        333D51
+        D3AC2B
+        F4F3EA
+        CBD0D8 */
+.header {
+    border-bottom: 5px #D3AC2B solid;
+    background-color: #F4F3EA;
+}
+
+.content {
+    background-color: #F4F3EA;
+    padding: 10px;
+}
+
+.footer {
+    border-top: 3px #D3AC2B solid;
+    background-color: #CBD0D8;
+}
+
+body{
+    margin: auto;
+    padding: 0px;
+    width: 1000px;
+    color: #333D51;
+    font-size: 15px;
+    
+    background-color: #333D51;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title> Register Page</title>
+
+
+    <style>
+        .entire {
+            display: grid;
+            grid-template-rows: 120px 10fr 1fr;
+        }
+
+        .header {
+            border-bottom: 5px #D3AC2B solid;
+            background-color: #F4F3EA;
+        }
+
+        .content {
+            background-color: #F4F3EA;
+            padding: 10px;
+        }
+
+        .input{
+            display: grid;
+            grid-template-columns: 150px 400px;
+        }
+        
+        .input > div input{
+            width: 300px;
+        }
+
+        .footer {
+            border-top: 3px #D3AC2B solid;
+            background-color: #CBD0D8;
+        }
+
+        body{
+            margin: auto;
+            padding: 0px;
+            width: 800px;
+            color: #333D51;
+            font-size: 16px;
+            
+            background-color: #333D51;
+        }
+        h1 {
+            font-size: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="entire">
+        <div class="header">
+            <h1>Register</h1>
+        </div>
+
+        <div class="content">
+            <form action="login.do" method="POST">
+                <fieldset>
+                    <legend>
+                        <h2>Register</h2>
+                    </legend>
+                    <div class="input">
+                        <div>
+                            <label for="id">ID</label><br>
+                            <label for="pw">PASSWORD</label><br>
+                            <label for="ma">MAIL ADDRESS</label><br>
+                            <!-- <label for="bd">[BIRTH]</label><br> -->
+                        </div>
+
+                        <div>
+                            <input id="id" type="text" name="id"/>
+                            <button>overlap</button><br>
+                            <input id="pw" type="text" name="pw"/><br>
+                            <input id="ma" type="text" name="ma"/><br>
+                            <!-- <input id="bd" type="text" /><br> -->
+                        </div>
+                    </div>
+
+                    
+
+                    <hr>
+                    <label>
+                        <label>
+                            <button>comit</button>
+                        </label>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="footer">
+            <p>footer marker</p>
+        </div>
+    </div>
+</body>
+
+</html>
