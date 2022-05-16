@@ -4,86 +4,54 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title> Login Page</title>
-
-
-    <style>
-       .entire {
-            display: grid;
-            grid-template-rows: 120px 10fr 1fr;
-        }
-
-        .header {
-            border-bottom: 5px #D3AC2B solid;
-            background-color: #F4F3EA;
-        }
-
-        .content {
-            background-color: #F4F3EA;
-            padding: 10px;
-        }
-
-        .footer {
-            border-top: 3px #D3AC2B solid;
-            background-color: #CBD0D8;
-        }
-
-        body{
-            margin: auto;
-            padding: 0px;
-            width: 800px;
-            color: #333D51;
-            font-size: 15px;
-            
-            background-color: #333D51;
-        }
-
-        h1 {
-            font-size: 40px;
-            text-align: center;
-        }
-
-        fieldset {
-            border: 3px #333D51 solid;
-            width: 50%;
-            margin: auto;
-            margin-top: 10%;
-            padding-top: 15px;
-            padding-bottom: 50px;
-
-        }
-
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <div class="entire">
+        <div class="headbar">
+            sht3047 = username
+        </div>
         <div class="header">
             <h1>Login</h1>
         </div>
 
         <div class="content">
-            <form action="">
-                <fieldset>
-                    <legend>
-                        <h2>Login</h2>
-                    </legend>
-                    <label for="id">
-                        [===ID===]<br>
-                        <input id="id" type="text" />
-                    </label>
-                    <br>
-                    <label for="pw">
-                        [PASSWORD]<br>
-                        <input id="pw" type="text" />
-                    </label>
-                    <br>
-                    <label>
-                        <label>
-                            <button>Login</button>
-                            <button>Register</button>
+            <div class="side">
+                <div> <a href="./Main.html">main list</a> </div>
+                <div> <a href="./Userinfo.html">user info</a> </div>
+                <hr>
+                <div> <a href="./Login.html">Login</a> </div>
+                <div> <a href="./Register.html">Register</a> </div>
+                <div> <a href="./Post.html">Post</a> </div>
+                <div> <a href="./Postview.html">Postview</a> </div>
+            </div>
+            <div class="main">
+                <form action="">
+                    <fieldset>
+                        <legend>
+                            <h2>Login</h2>
+                        </legend>
+                        <label for="id">
+                            [===ID===]<br>
+                            <input id="id" type="text" />
                         </label>
-                </fieldset>
-            </form>
+                        <br>
+                        <label for="pw">
+                            [PASSWORD]<br>
+                            <input id="pw" type="text" />
+                        </label>
+                        <br>
+                        <label>
+                            <label>
+                                <button>Login</button>
+                                <button>Register</button>
+                            </label>
+                    </fieldset>
+                </form>
+            </div>
+           
+            
         </div>
 
         <div class="footer">
